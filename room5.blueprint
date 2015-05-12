@@ -1171,6 +1171,7 @@
     }
   ],
   "Blueprints" : {
+	"blueprint_name": "multi-node-hdfs-yarn-room5",
     "stack_name" : "HDP",
     "stack_version" : "2.2"
   }
