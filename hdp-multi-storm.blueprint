@@ -177,9 +177,6 @@
                     "name" : "GANGLIA_MONITOR"
                 },
                 {
-                    "name" : "STORM_REST_API"
-                },
-                {
                     "name" : "STORM_UI_SERVER"
                 }
             ],
