@@ -17,9 +17,6 @@
           "name" : "PIG"
         },
         {
-          "name" : "KAFKA_BROKER"
-        },
-        {
           "name" : "OOZIE_CLIENT"
         },
         {
@@ -69,9 +66,6 @@
         },
         {
           "name" : "PIG"
-        },
-        {
-          "name" : "KAFKA_BROKER"
         },
         {
           "name" : "OOZIE_CLIENT"
@@ -125,9 +119,6 @@
           "name" : "GANGLIA_MONITOR"
         },
         {
-          "name" : "WEBHCAT_SERVER"
-        },
-        {
           "name" : "NIMBUS"
         },
         {
@@ -137,7 +128,7 @@
       "cardinality" : "1"
     },
     {
-      "name" : "master",
+      "name" : "gateway-master",
       "components" : [
         {
           "name" : "ZOOKEEPER_SERVER"
@@ -196,7 +187,13 @@
         {
           "name" : "STORM_UI_SERVER"
         },
+         {
+          "name" : "KAFKA_BROKER"
+        },
         {
+          "name" : "WEBHCAT_SERVER"
+        },
+		{
           "name" : "RESOURCEMANAGER"
         }
       ],
@@ -204,7 +201,7 @@
     }
   ],
   "Blueprints" : {
-    "blueprint_name": "multi-node-hdfs-yarn",
+    "blueprint_name": "multi-node-hdfs-storm",
     "stack_name" : "HDP",
     "stack_version" : "2.2"
   }
